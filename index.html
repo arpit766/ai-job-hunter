@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Job Hunter — Arpit Kumar</title>
+  <meta name="description" content="Review-first job discovery and application management with MCP tools, PostgreSQL, and BullMQ." />
+  <link rel="canonical" href="https://arpit766.github.io/ai-job-hunter/" />
+  <style>
+    :root {
+      --bg: #070b14;
+      --panel: #111a2e;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --good: #34d399;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, sans-serif;
+      background: radial-gradient(circle at 20% 0%, #12203f, var(--bg) 50%);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    main { max-width: 880px; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+    h1 { font-size: clamp(2rem, 5vw, 2.75rem); margin: 0 0 0.5rem; }
+    .lead { color: var(--muted); font-size: 1.1rem; }
+    .card {
+      margin-top: 1.5rem;
+      padding: 1.25rem 1.35rem;
+      border-radius: 14px;
+      border: 1px solid rgba(56, 189, 248, 0.2);
+      background: linear-gradient(160deg, rgba(17, 26, 46, 0.95), rgba(10, 16, 30, 0.85));
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code { background: rgba(15, 23, 42, 0.8); padding: 0.15rem 0.4rem; border-radius: 6px; font-size: 0.9em; }
+    ul { padding-left: 1.2rem; }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      margin-right: 0.75rem;
+      padding: 0.65rem 1rem;
+      border-radius: 10px;
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: var(--text);
+      font-weight: 600;
+    }
+    .pill { color: var(--good); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="pill">Open source · MCP · Review-first apply</p>
+    <h1>AI Job Hunter</h1>
+    <p class="lead">Discover roles, score fit with rules + evidence, draft applications, and submit only after explicit approval.</p>
+
+    <div class="card">
+      <h2>Repository</h2>
+      <p>Full stack: Next.js dashboard, PostgreSQL + Prisma, Redis + BullMQ worker, TypeScript MCP server for Cursor.</p>
+      <a class="btn" href="https://github.com/arpit766/ai-job-hunter">View on GitHub</a>
+      <a class="btn" href="https://github.com/arpit766/ai-job-hunter#quick-start">Setup guide</a>
+    </div>
+
+    <div class="card">
+      <h2>Run locally (dashboard)</h2>
+      <pre><code>docker compose up -d
+npm install
+npx prisma db push
+npm run db:seed
+npm run dev:web</code></pre>
+      <p>Dashboard: <code>http://localhost:3100</code> — requires Postgres/Redis from Docker Compose.</p>
+    </div>
+
+    <div class="card">
+      <h2>MCP tools</h2>
+      <ul>
+        <li><code>search_jobs</code>, <code>score_job_match</code>, <code>draft_application</code></li>
+        <li><code>approve_application</code>, <code>submit_application</code> (mock provider)</li>
+        <li><code>generate_daily_report</code>, <code>track_application</code></li>
+      </ul>
+    </div>
+
+    <p style="margin-top:2rem;color:var(--muted);font-size:0.9rem;">
+      Portfolio: <a href="https://arpit766.github.io/Arpit-Portfolio/">arpit766.github.io/Arpit-Portfolio</a>
+    </p>
+  </main>
+</body>
+</html>
