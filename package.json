@@ -1,0 +1,31 @@
+{
+  "name": "ai-job-hunter",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @job-hunter/core && npm run build -w @job-hunter/mcp-server",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:push": "prisma db push",
+    "db:seed": "tsx prisma/seed.ts",
+    "dev:web": "npm run dev -w @job-hunter/web",
+    "dev:worker": "npm run dev -w @job-hunter/worker",
+    "dev:mcp": "npm run start -w @job-hunter/mcp-server"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "prisma": "^6.1.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0"
+  }
+}

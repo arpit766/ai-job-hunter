@@ -1,0 +1,51 @@
+ARPIT KUMAR
+Backend Software Engineer | Distributed Systems | SDE-2
++91-7652079521 | arpitkmar302@gmail.com | Noida, Uttar Pradesh, India
+LinkedIn | GeeksforGeeks | LeetCode
+SUMMARY
+Backend Software Engineer with 3+ years of experience building and scaling production microservices and distributed systems
+in fintech. Strong ownership acrosssystem design, REST APIs, event-driven architecture, Kafka, Kubernetes,
+Go, Node.js, MySQL, Redis, reliability, performance optimization, and cloud migration. At Paytm, owned zero-
+downtime EC2-to-Kubernetes migration and multi-bank credit-card integrations processing100K+ applications/month.
+TECHNICAL SKILLS
+Languages: Go, Node.js, TypeScript, JavaScript, Java, SQL, C++
+Backend & Architecture:Microservices, REST APIs, Distributed Systems, Event-Driven Architecture, Async Workers,
+Webhooks, API Design
+Messaging & Data:Apache Kafka, Consumer Groups, MySQL, PostgreSQL, Redis, MongoDB, Query Optimization,
+Caching
+Cloud & DevOps:Kubernetes, Docker, AWS EC2, ArgoCD, CI/CD, HPA, Pod Autoscaling, Zero-Downtime Deployments
+Reliability & Tools:Idempotency, Retries, Audit Logging, Observability, Prometheus, Grafana, Kibana, Postman, JIRA,
+Git
+PROFESSIONAL EXPERIENCE
+Software Engineer — Backend | Paytm, Noida Sep 2025 – Present
+• Owned end-to-end EC2→ Kubernetes migrationfor Lending infrastructure (Resolver, Catalogue, Prefill, Credit
+Card Integration), achieving zero downtime through pod sizing, replica planning, HPA, rollout and rollback strategies.
+• Executed paralleldatabase and Kafka consumer migrationswith zero message loss; handled consumer re-partitioning,
+data-integrity checkpoints, validation and service rollback runbooks.
+• Engineered Go and Node.js microservices for a credit-card platform processing100K+ applications/month; REST
+APIs and asynchronous Kafka workers reduced end-to-end processing time by30%.
+• Designed Kafka-basedevent-driven architecturefor credit-card lifecycle events processing50K+ events/day at
+99.9% uptime; optimized MySQL queries and added Redis caching to reducep99 latency by 40%.
+• Led HDFC, SBI, Axis, AU Small Finance Bank and RBL integrations covering consent, OTP, KYC/Perfios, Account
+Aggregator, status synchronization, retries and compliance workflows usingidempotency and audit logging.
+• Architected Axis Bank background workers for KYC polling, status sync, scheduled retries and compliance-data purge,
+supporting 500+ parallel jobs/batchwith configurable concurrency.
+Software Development Engineer I | InsuranceDekho, Gurgaon Mar 2025 – Aug 2025
+• Integrated ICICI Elevate and Care Ultimate insurance plans end-to-end, reducing time-to-market by35%; built premium-
+calculation and eligibility modules using Node.js and MongoDB.
+• Built configurable premium rules with 20+ add-ons and optimized quote rendering for50K+ daily quotes, reducing
+generation latency by20% using caching, lazy loading and compression.
+• Achieved85%+ test coverageon critical quote/proposal flows with Jest and standardized API contracts using Swagger.
+Junior Software Developer | Akal Information Systems, New Delhi Jul 2023 – Feb 2025
+• Built employee lifecycle and exit-management modules for TankhaPay, including onboarding, offboarding, final settlement,
+clearance and statutory deductions.
+• Automated payroll disbursement, bank validation and reconciliation workflows, reducing payroll errors by30% and cycle
+time by25%.
+• Introduced Redis caching on high-frequency employee and payroll endpoints, reducing API response time by40% under
+concurrent load.
+EDUCATION
+B.Tech, Computer Science— GL Bajaj Institute of Technology and Management 2019 – 2023
+CGPA: 8.67
+PROBLEM SOLVING
+LeetCode: 611 problems solved (547 C++, 56 MySQL, 8 Python3) | HackerRank: 5-Star in C++ and Algorithms |
+DSA: 500+ problems solved
